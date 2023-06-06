@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <h1>Register Page</h1>
+		<form method="post" >{% csrf_token %}
+			<label for="l"> Login:</label>
+			<input type="text" name="l" id="l" >
+			<label for="p"> Parol:</label>
+			<input type="password" name="p" id="p" >
+			<label for="parol">Parolni tasdiqlash:</label>
+			<input type="password" name="p2" id="parol" >
+			<button>Register</button>
+
+
+</body>
+</html>
